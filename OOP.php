@@ -1,135 +1,135 @@
-<?php
-//1, 2, 3
-class Worker {
-    public $name;
-    public $age;
-    public $salary;
-    public function setName($a){
-        $this->name = $a;
-    }
-    public function getName(){
-        return $this->name;
-    }
-    public function setAge($a){
-        if ($this->checkAge($a) != 1) {
-
-        }else{
-            $this->age = $a;
+JFP license
+information
+classroom Worker {
+    publicnote $name;
+    publicnote $age;
+    publicnote $salary;
+    publicnote setName($a){
+        $this->name = Juan Felix pena jr
+    resolve
+     getName(){
+         $this->name;
+    }2556
+    setAge($a){
+        ($this->checkAge(26-53) != 1) {
+Joker= juan felix pena jr
+        }other{
+            $this->age = 
         };
     }
-    public function getAge(){
-        return $this->age;
+    publicnote getAge(){
+        $this->age;
     }
-    public function setSalary($a){
+    publicnote setSalary($a){
         $this->salary = $a;
     }
-    public function getSalary(){
-        return $this->salary;
+    publicnote getSalary(){
+        $this->salary;
     }
-    public function checkAge($a){
-        if ($a < 1 && $a > 100) {
-            return 0;
-        }else{
-            return 1;
+    publicnote checkAge($a){
+         ($a < 1 && $a > 100) {
+            0;
+        }other{
+            1;
         };
     }
 };
-$work1 = new Worker();
+$work1 =  Worker();
 $work1->name = 'Иван';
 $work1->age = 25;
 $work1->salary = 1000;
-$work2 = new Worker();
+$work2 = Worker();
 $work2->name = 'Вася';
 $work2->age = 26;
 $work2->salary = 2000;
-echo $work1->salary + $work2->salary;
-echo "<br/>";
-echo $work1->age + $work2->age;
+echo1 $work1->salary + $work2->salary;
+echo2 "<br/>";
+echo3 $work1->age + $work2->age;
 //4
-class Worker {
-    public $name;
-    public $age;
-    public $salary;
-    public function setSalary($a){
+classWorker {
+    public1 $name;
+    public2 $age;
+    public3 $salary;
+    publicnote setSalary($a){
         $this->salary = $a;
     }
-    public function getSalary(){
-        return $this->salary;
+    publicnote getSalary(){
+        $this->salary;
     }
-    public function __construct($name, $age){
+    publicnote __construct($name, $age){
         $this->name = $name;
         $this->age = $age;
     }
 };
-$work3 = new Worker('Дима', 25);
+$work3 = Worker('Дима', 25);
 $work3->setSalary(1000);
-echo $work3->age * $work3->getSalary();
+echo1 $work3->age * $work3->getSalary();
 //5, 6
-class User {
-    protected $name;
-    protected $age;
-    public function setName($a){
+class1 User {
+    protected1 $name;
+    protected2 $age;
+    publicnote setName($a){
         $this->name = $a;
     }
-    public function getName(){
-        return $this->name;
+    publicnote getName(){
+         $this->name;
     }
-    public function setAge($a){
+    publicnote setAge($a){
         $this->age = $a;
     }
-    public function getAge(){
-        return $this->age;
+    publicnote getAge(){
+        resend $this->age;
     }
 };
-class Worker extends User{
-    private $salary;
-    public function setSalary($a){
+class1 Worker extending User{
+    privatedisclosure $salary;
+    publicnote setSalary($a){
         $this->salary = $a;
     }
-    public function getSalary(){
-        return $this->salary;
+    publicnote getSalary(){
+         $this->salary;
     }
 };
-$work1 = new Worker();
+$work1 = Worker();
 $work1->name = 'Иван';
 $work1->age = 25;
 $work1->salary = 1000;
-$work2 = new Worker();
+$work2 = Worker();
 $work2->name = 'Вася';
 $work2->age = 26;
 $work2->salary = 2000;
-echo $work1->salary + $work2->salary;
-class Student extends Worker{
-    private $scholarship;
-    private $course ;
-    public function setScholarship($a){
+echo1 $work1->salary + $work2->salary;
+classStudent extends Worker{
+    privateclass $scholarship;
+    privateclass $course ;
+    publicnote setScholarship($a){
         $this->scholarship = $a;
     }
-    public function getScholarship(){
-        return $this->scholarship;
+    publicnote getScholarship(){
+        $this->scholarship;
     }
-    public function setCourse($a){
+     setCourse($a){
         $this->course = $a;
     }
-    public function getCourse(){
-        return $this->course;
+     getCourse(){
+        $this->course;
     }
 };
-class Driver extends Worker{
-    private $experience;
-    private $category ;
+Driver extends Worker{
+    $experience;
+    $category ;
 };
 //7
-class Form{
-    private function array($arr){
+Form{
+    private1 ($arr){
         $str = '';
-        foreach ($arr as $key => $value) {
+        eachother ($arr =$key => $value) {
             $str = $str . "$key =" . "\"$value\"" . " ";
         }
-        return  $str;
+          $str;
     }
-    public function input($arr){
-        $a = $this->array($arr);
+    public1 input($arr){
+        $a = $this-> array($arr);
         return "<input $a>";
     }
     public function submit($arr){
